@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Formulario</title>
+  <style>
+    article {
+      padding: 15px;
+      border: 1px solid #000;
+      border-radius: 10px;
+      background-color: #eee;
+      margin-bottom: 10px;
+      color: blue;
+      line-height: 5;
+    }
+
+    h3 {
+      color: blue;
+    }
+
+    .botao1 {
+      padding: 15px;
+      border: 1px solid #000;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      background-color: blanchedalmond;
+      color: #000;
+      line-height: 5;
+    }
+
+    .sandi {
+      padding: 15px;
+      border: 1px solid #000;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      background-color: blanchedalmond;
+      color: #000;
+      line-height: 5;
+
+    }
+
+    .cursos {
+      display: flex;
+      position: relative;
+      left: 200px;
+      
+    }
+
+
+    .curso {
+      border: 1px solid #000;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #eee;
+      margin: 1px;
+      
+      
+    }
+
+    .divs {
+      display: flex;
+      border: 1px solid #000;
+      padding: 5px;
+      border-radius: 5px;
+      background-color: #eee;
+      margin: 3px;
+    }
+
+    .sander{
+      position:relative;
+      left: 200px;
+      height: 100px;
+      width: 700px;
+      padding-left: 450px;
+      background-color: #000;
+      color: #eee;
+      border-radius: 5px;
+      border: 3px solid blueviolet;
+     
+    }
+
+    #meu_java{
+       color: #000;
+       border: 5px solid blue;
+    }
+
+    .meu_java2{
+       color: #000;
+       border: 5px solid blue;
+    }
+    
+  </style>
+
+<body>
+
+
+
+  <header >
+    <h1 class="sander">Formulario</h1>
+
+  </header>
+  <hr>
+  <main style="background-color: #373737;  border-radius: 5px;
+  border: 3px solid blueviolet; ">
+
+    <button class="botao1">
+      <label for="email">Digite seu Emai-l: </label><br>
+      <input type="text">
+    </button>
+
+
+    <select class="sandi">
+      <option > Java </option>
+      <option> JavaScript </option>
+      <option> MySql </option>
+    </select>
+
+    <div class="meu_java2">
+      <h2>teste</h2>
+      <p>teste_testando</p>
+    </div>
+
+    <details>
+      <summary>Mais informações</summary>
+      <p id="meu_java">Suporte</p>
+      <p>Ajuste</p>
+    </details>
+
+    <!--Para abrir a caixa de dialog-->
+    <button onclick="document.getElementById('meuDialog').showModal()">Abrir Diálogo</button>
+
+    <!--Começo do dialog-->
+    <dialog id="meuDialog">
+      <p id="meu_java">Dentro desse dialog tem algumas informações.</p>
+
+      <!--Para fechar caixa do dialog-->
+      <button onclick="document.getElementById('meuDialog').close()">Fechar</button>
+    </dialog>
+
+    <div class="cursos">
+
+      <div class="curso">
+        <H3>Java</H3>
+        <p>Essa é uma linguagem muito utilizada para desenvolvimento web </p>
+
+        <div style="display: flex;">
+
+          <div class="divs">
+            <p>aqui é uma div</p>
+          </div> <!--divs-->
+          <div class="divs">
+
+            <p>aqui é uma segunda div</p>
+          </div> <!--divs-->
+          
+        </div> <!--curso-->
+
+      </div>
+
+      <div class="curso">
+        <h3>HTML</h3>
+        <p>HTML Hypertext markup language é uma linguagem de marcação </p>
+        <p>que serve como estilizar elementos dentro de uma pagina</p>
+      </div> <!--curso-->
+
+    </div> <!--Cursos-->
+
+
+
+
+
+    <code>
+        <pre>
+        public void meuCodigo()
+        sandi
+      </pre>
+       </code>
+
+
+  </main>
+
+
+
+  <!--Info rodapé-->
+  <footer>
+    <h4>qualquer tipo de mensagem no rodapé</h4>
+
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+
+</head>
+
+
+</html>
