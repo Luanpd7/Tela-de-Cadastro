@@ -1,0 +1,48 @@
+.main{
+    position: absolute;
+    left: 600px;
+    bottom: 500px ;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    border: 1px solid #000;
+    padding: 20px;
+    bottom: 300px;
+    
+    
+   }
+
+   .btsalvar{
+    color: white;
+    background-color: rgb(20, 0, 200) ;
+    position: relative;
+    left: 110px;
+    border: 3px solid #000;
+  
+   
+   }
+
+   .menuPrincipal{
+    background-color: rgb(31, 0, 98);
+   }
+
+   .btvoltar{
+    color: white;
+    background-color: rgb(20, 0, 200) ;
+    position: relative;
+    left: 150px;
+    border: 3px solid #000;
+}    
+
+.scss{
+    position: absolute;
+    left: 550px;
+    bottom: 500px ;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    border: 1px solid #000;
+    padding: 40px;
+    bottom: 300px;
+    font-size: large;
+     }
+
+ 
